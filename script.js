@@ -169,9 +169,9 @@ const templates = {
                 <div class="whoweare-objectives-box">
                     <h2 class="whoweare-objectives-title">${data.objectivesTitle}</h2>
                     <ul class="whoweare-objectives-list">
-                        <li>${data.objective1}</li>
-                        <li>${data.objective2}</li>
-                        <li>${data.objective3}</li>
+                        <li>${data.objective1.replace(/\n/g, '<br>')}</li>
+                        <li>${data.objective2.replace(/\n/g, '<br>')}</li>
+                        <li>${data.objective3.replace(/\n/g, '<br>')}</li>
                     </ul>
                 </div>
             </div>
