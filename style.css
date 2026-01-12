@@ -2341,6 +2341,7 @@ body {
     .welcome-cover-overlay,
     .artistic-overlay,
     .welcome-overlay-gradient,
+    .aboutus-content-section,
     .aboutus-underline {
         -webkit-print-color-adjust: exact !important;
         print-color-adjust: exact !important;
