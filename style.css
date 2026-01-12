@@ -775,7 +775,7 @@ body {
 .aboutus-content-section {
     background: #4000ff;
     padding: 35px 60px;
-    height: 25%;
+    height: 40%;
     display: flex;
     align-items: flex-start;
 }
@@ -792,7 +792,7 @@ body {
 /* Bottom Section - Image with Footer Overlay */
 .aboutus-image-section {
     position: relative;
-    height: 45%;
+    height: 30%;
     overflow: hidden;
 }
 
