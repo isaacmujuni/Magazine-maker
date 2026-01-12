@@ -64,7 +64,7 @@ const templates = {
                         <p class="aboutus-subtitle">${data.subheading}</p>
                     </div>
                     <div class="aboutus-content-section">
-                        <p>${data.topText}</p>
+                        <p>${data.topText.replace(/\n/g, '<br>')}</p>
                     </div>
                     <div class="aboutus-image-section">
                         <img src="${data.heroImage}" alt="Hero Image" class="aboutus-hero-image">
