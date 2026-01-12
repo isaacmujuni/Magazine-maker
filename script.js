@@ -263,24 +263,24 @@ const templates = {
                         <div class="policy-line"></div>
                     </div>
                     <div class="policy-intro">
-                        <p>${data.introText}</p>
+                        <p>${data.introText.replace(/\n/g, '<br>')}</p>
                     </div>
                     <div class="policy-items">
                         <div class="policy-item">
                             <span class="policy-number">01</span>
-                            <p>${data.policyItem1}</p>
+                            <p>${data.policyItem1.replace(/\n/g, '<br>')}</p>
                         </div>
                         <div class="policy-item">
                             <span class="policy-number">02</span>
-                            <p>${data.policyItem2}</p>
+                            <p>${data.policyItem2.replace(/\n/g, '<br>')}</p>
                         </div>
                         <div class="policy-item">
                             <span class="policy-number">03</span>
-                            <p>${data.policyItem3}</p>
+                            <p>${data.policyItem3.replace(/\n/g, '<br>')}</p>
                         </div>
                         <div class="policy-item">
                             <span class="policy-number">04</span>
-                            <p>${data.policyItem4}</p>
+                            <p>${data.policyItem4.replace(/\n/g, '<br>')}</p>
                         </div>
                     </div>
                 </div>
@@ -292,7 +292,7 @@ const templates = {
                 <div class="policy-commitment">
                     <div class="commitment-icon"></div>
                     <h2 class="commitment-title">Our Commitment</h2>
-                    <p class="commitment-text">${data.commitmentText}</p>
+                    <p class="commitment-text">${data.commitmentText.replace(/\n/g, '<br>')}</p>
                 </div>
             </div>
         `
