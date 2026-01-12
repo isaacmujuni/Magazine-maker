@@ -121,8 +121,8 @@ const templates = {
                         <div class="whoweare-triangle"></div>
                     </div>
                     <div class="whoweare-description">
-                        <p class="whoweare-intro">${data.tocIntroText}</p>
-                        <p class="whoweare-body">${data.tocCompanyDescription}</p>
+                        <p class="whoweare-intro">${data.tocIntroText.replace(/\n/g, '<br>')}</p>
+                        <p class="whoweare-body">${data.tocCompanyDescription.replace(/\n/g, '<br>')}</p>
                     </div>
                     <div class="whoweare-membership">
                         <p class="whoweare-member-title">${data.tocMembershipText}</p>
