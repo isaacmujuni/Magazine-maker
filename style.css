@@ -813,12 +813,16 @@ body {
     
     .aboutus-header-section {
         padding: 50px 50px 40px;
-        height: 28%;
+        height: 30%;
     }
     
     .aboutus-content-section {
         padding: 30px 50px;
-        height: 27%;
+        height: 40%;
+    }
+    
+    .aboutus-image-section {
+        height: 30%;
     }
 }
 
@@ -839,7 +843,7 @@ body {
     
     .aboutus-content-section {
         padding: 25px 30px;
-        height: 25%;
+        height: 40%;
     }
     
     .aboutus-content-section p {
@@ -847,7 +851,7 @@ body {
     }
     
     .aboutus-image-section {
-        height: 45%;
+        height: 30%;
     }
 }
 
