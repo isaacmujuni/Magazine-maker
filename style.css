@@ -736,8 +736,13 @@ body {
 /* Top Section - Clean Header (no image) */
 .aboutus-header-section {
     background: white;
-    padding: 40px 60px 30px;
+    padding: 60px 60px 50px;
     text-align: center;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .aboutus-heading {
@@ -766,11 +771,11 @@ body {
     margin: 5px 0 0 0;
 }
 
-/* Middle Section - Content */
+/* Middle Section - Blue Content Strip */
 .aboutus-content-section {
-    background: white;
-    padding: 30px 60px 40px;
-    flex: 1;
+    background: #4000ff;
+    padding: 35px 60px;
+    height: 25%;
     display: flex;
     align-items: flex-start;
 }
@@ -779,7 +784,7 @@ body {
     font-family: 'Oswald', sans-serif;
     font-size: 10px;
     line-height: 1.7;
-    color: #1a1a1a;
+    color: white;
     margin: 0;
     text-align: justify;
 }
@@ -807,11 +812,13 @@ body {
     }
     
     .aboutus-header-section {
-        padding: 35px 50px 25px;
+        padding: 50px 50px 40px;
+        height: 28%;
     }
     
     .aboutus-content-section {
-        padding: 25px 50px 35px;
+        padding: 30px 50px;
+        height: 27%;
     }
 }
 
@@ -826,11 +833,13 @@ body {
     }
     
     .aboutus-header-section {
-        padding: 25px 30px 20px;
+        padding: 40px 30px 30px;
+        height: 30%;
     }
     
     .aboutus-content-section {
-        padding: 20px 30px 30px;
+        padding: 25px 30px;
+        height: 25%;
     }
     
     .aboutus-content-section p {
@@ -838,7 +847,7 @@ body {
     }
     
     .aboutus-image-section {
-        height: 40%;
+        height: 45%;
     }
 }
 
@@ -2466,9 +2475,20 @@ body {
         font-size: 20px !important;
     }
     
+    .aboutus-content-section {
+        background: #4000ff !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+    
     .aboutus-content-section p {
         font-size: 12px !important;
         line-height: 1.8 !important;
+        color: white !important;
+    }
+    
+    .aboutus-header-section {
+        height: 30% !important;
     }
 }
 
