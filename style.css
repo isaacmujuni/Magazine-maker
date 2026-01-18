@@ -809,6 +809,26 @@ body {
     object-position: center;
 }
 
+.aboutus-image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px 60px;
+    z-index: 5;
+}
+
+.aboutus-image-overlay p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: white;
+    margin: 0;
+    text-align: justify;
+}
+
 
 /* Responsive for About Us layout */
 @media (max-width: 1400px) {
