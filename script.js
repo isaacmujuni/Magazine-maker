@@ -17,6 +17,7 @@ const templates = {
             mainHeading: { label: 'Page Heading (WHO WE ARE)', type: 'text', default: 'WHO WE ARE' },
             subheading: { label: 'Subtitle', type: 'text', default: 'Message' },
             heroImage: { label: 'Bottom Image (Portrait)', type: 'file', default: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&q=80' },
+            bottomOverlayText: { label: 'Bottom Overlay Text', type: 'textarea', rows: 3, default: 'Our work is grounded in close collaboration with clinicians, researchers, and health institutions—particularly in settings where resources are constrained and the need for efficiency, clarity, and continuity of care is greatest. We design tools that fit into existing clinical workflows, respect professional accountability, and prioritise safety, transparency, and usability.' },
             accentColor: { label: 'Underline Accent Color', type: 'color', default: '#8B1538' }
         },
         render: (data) => `
@@ -68,6 +69,9 @@ const templates = {
                     </div>
                     <div class="aboutus-image-section">
                         <img src="${data.heroImage}" alt="Hero Image" class="aboutus-hero-image">
+                        <div class="aboutus-image-overlay">
+                            <p>${data.bottomOverlayText.replace(/\n/g, '<br>')}</p>
+                        </div>
                     </div>
                 </div>
             </div>
