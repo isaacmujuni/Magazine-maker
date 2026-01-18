@@ -883,6 +883,14 @@ body {
     }
     
     .aboutus-image-overlay {
+        padding: 20px 30px;
+    }
+    
+    .aboutus-image-overlay p {
+        font-size: 9px;
+    }
+    
+    .aboutus-image-overlay {
         padding: 25px 50px;
     }
     
@@ -2382,6 +2390,7 @@ body {
     .artistic-overlay,
     .welcome-overlay-gradient,
     .aboutus-content-section,
+    .aboutus-image-overlay,
     .aboutus-underline {
         -webkit-print-color-adjust: exact !important;
         print-color-adjust: exact !important;
@@ -2543,6 +2552,17 @@ body {
     
     .aboutus-header-section {
         height: 30% !important;
+    }
+    
+    .aboutus-image-overlay {
+        background: rgba(0, 0, 0, 0.5) !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+    
+    .aboutus-image-overlay p {
+        font-size: 12px !important;
+        color: white !important;
     }
 }
 
