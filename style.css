@@ -881,6 +881,14 @@ body {
     .aboutus-image-section {
         height: 30%;
     }
+    
+    .aboutus-image-overlay {
+        padding: 25px 50px;
+    }
+    
+    .aboutus-image-overlay p {
+        font-size: 10px;
+    }
 }
 
 /* Responsive Design */
