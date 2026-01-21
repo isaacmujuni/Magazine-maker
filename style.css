@@ -2560,14 +2560,30 @@ body {
     }
     
     .aboutus-image-overlay {
-        background: rgba(0, 0, 0, 0.5) !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        background: rgba(0, 0, 0, 0.4) !important;
         -webkit-print-color-adjust: exact !important;
         print-color-adjust: exact !important;
+        display: flex !important;
+        align-items: flex-end !important;
+        padding: 30px 60px !important;
+        z-index: 5 !important;
     }
     
     .aboutus-image-overlay p {
         font-size: 12px !important;
         color: white !important;
+        margin: 0 !important;
+        text-align: justify !important;
+    }
+    
+    .aboutus-image-section {
+        position: relative !important;
+        overflow: visible !important;
     }
 }
 
