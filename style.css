@@ -2374,6 +2374,14 @@ body {
         object-fit: cover !important;
     }
     
+    /* Bottom image in aboutus section */
+    .aboutus-hero-image {
+        position: relative !important;
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+    }
+    
     /* Force all background colors and gradients to print */
     .welcome-cover-page,
     .toc-black-page,
