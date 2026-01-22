@@ -325,8 +325,11 @@ body {
 }
 
 .welcome-cover-page .page-number {
-    color: rgba(255, 255, 255, 0.5);
-    z-index: 10;
+    display: none;
+}
+
+.welcome-right-aboutus .page-number {
+    display: none;
 }
 
 .welcome-cover-container {
